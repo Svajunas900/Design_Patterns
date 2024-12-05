@@ -22,7 +22,7 @@ class AbsoluteRoute:
 
 
 class RouteFactory:
-    # factory method to retrieve and add easily different type of routes
+    # factory method to retrieve different type of routes
     def get_route(self, route_type="Absolute", route=""):
         routes = dict(
             Absolute=AbsoluteRoute(route),
