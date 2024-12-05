@@ -20,7 +20,7 @@ class AbsoluteRoute:
     def __str__(self):
         return self.route
 
-
+# Abstract Factory purpose is to yield multiple related objects and make creating other classes in runtime easier
 class RouteFactory:
     # factory method to retrieve different type of routes
     def get_route(self, route_type="Absolute", route=""):
